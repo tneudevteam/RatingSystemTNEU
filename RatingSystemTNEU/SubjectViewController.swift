@@ -75,7 +75,7 @@ class SubjectViewController: UIViewController, UITableViewDataSource, UITableVie
         
         print("datasource: \(self.dataSource)")
         
-        self.woSwitch.rightTitle = "2 Семетр"
+        self.woSwitch.rightTitle = "2 Семестр"
         self.woSwitch.leftTitle = "1 Семестр"
         self.getModulesOutOf(self.dataSource)
         
