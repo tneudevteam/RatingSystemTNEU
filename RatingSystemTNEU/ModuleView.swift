@@ -45,7 +45,7 @@ class ModuleView: UIView {
             switch (actualDataSource.controlType) {
             case "Залік" : controlType.image = UIImage(named: "zalik")
             case "Екзамен" : controlType.image = UIImage(named: "exam")
-            case "Курсовий проект" : controlType.image = UIImage(named: "kurs")
+            case "Курсова робота", "Курсовий проект" : controlType.image = UIImage(named: "kurs")
             case "Дипломна робота" : controlType.image = UIImage(named: "diploma")
             case "Звіт про практику" : controlType.image = UIImage(named: "practice")
             default : controlType.image = UIImage(named: "none")
