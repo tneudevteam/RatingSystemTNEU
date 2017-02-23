@@ -1,10 +1,10 @@
 PODS:
   - DGRunkeeperSwitch (1.1.1)
-  - PullToMakeFlight (1.1):
+  - PullToMakeFlight (1.1.2):
     - PullToRefresher (~> 1.0)
-  - PullToRefresher (1.3.1)
+  - PullToRefresher (1.4.0)
   - ReachabilitySwift (2.3.3)
-  - SVProgressHUD (1.1.3)
+  - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
   - DGRunkeeperSwitch
@@ -18,14 +18,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ReachabilitySwift:
-    :commit: cf126c0584a209143c75bf1d0f23fd904891e26e
+    :commit: 225f5af85fe2f776c0ab2e5f3d7a25c38fa1532f
     :git: https://github.com/ashleymills/Reachability.swift
 
 SPEC CHECKSUMS:
   DGRunkeeperSwitch: da12f199532a99958a1e87ec0a5af61efdba11ec
-  PullToMakeFlight: ca24fa0dc23b441e91e4928513f318710534341d
-  PullToRefresher: e17cc032b48148824a77fbf4bce5beb81933071a
+  PullToMakeFlight: 5f27f408267aa495e515f1ebeb2b31a6aad7acc8
+  PullToRefresher: c4629a459f305c14a66d35f52c2feeaccf85c49e
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
-  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: d25efd915d217567e7b7436da1af33d20d6c5754
+
+COCOAPODS: 1.0.0

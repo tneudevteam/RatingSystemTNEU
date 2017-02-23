@@ -16,7 +16,7 @@ Custom animated pull-to-refresh that can be easily added to UIScrollView
 
 ```ruby
 use_frameworks!
-pod 'PullToMakeFlight', '~> 1.0'
+pod 'PullToMakeFlight', '~> 1.1.2'
 ```
 
 ##Usage
@@ -55,6 +55,12 @@ tableView.startRefreshing()
 ```
 
 Component was implemented based on [customizable pull-to-refresh](https://github.com/Yalantis/PullToRefresh)
+
+## Let us know!
+
+We’d be really happy if you sent us links to your projects where you use our component. Just send an email to github@yalantis.com And do let us know if you have any questions or suggestion regarding the animation. 
+
+P.S. We’re going to publish more awesomeness wrapped in code and a tutorial on how to make UI for iOS (Android) better than better. Stay tuned!
 
 ## License
 
